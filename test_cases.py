@@ -12,7 +12,7 @@ class TestCalc (unittest.TestCase):
         #正常系テスト
         def test_valid_multiplication(self):
                 self.assertEqual(21, calc(3,7))
-                self.assertEqual(1,calc(1,7))
+                self.assertEqual(7,calc(1,7))
                 self.assertEqual(20000,calc(100,200))
 
         #異常系テスト
