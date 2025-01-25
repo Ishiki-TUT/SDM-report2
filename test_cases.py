@@ -9,18 +9,6 @@ import sys
 
 class TestCalc (unittest.TestCase):
 
-        def test_sample1 (self):
-                self.assertEqual (21, calc(3,7))
-
-        def test_sample2 (self):
-                self.assertEqual (-1, calc(0,150))
-
-        def test_sample3 (self):
-                self.assertEqual (-1, calc('a','b'))
-
-        def test_sample4 (self):
-                self.assertEqual (-1, calc(0.1,999))
-
         #正常系テスト
         def test_valid_multiplication(self):
                 self.assertEqual(21, calc(3,7))
